@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- <meta name="viewport" content="user-scalable = yes"> -->
+
+	    <title>A Breathing Earth - Pixi version</title>
+		<meta name="author" content="Nadieh Bremer">
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="192x192" href="../img/favicon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png" />
+        
+		<!-- JavaScript files -->
+		<script src="../plugins/d3.min.js"></script>
+		<script src="js/pixi.min.js"></script>
+		<script src="../plugins/breathe.js"></script>
+		<script src="../plugins/mobile-detect.js"></script>
+
+		<!-- Styling -->
+		<link href="../css/style-examples.css" rel="stylesheet">
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="title">A Breathing Earth</div>
+			<div id="subtitle"><a href="https://github.com/pixijs/pixi.js" target="_new">pixi</a> based version</div>
+			<div id="note">50.000 circles moving through a year of data on planetary vegetation health</div>
+
+			<div id="week"></div>
+			<div id="chart">
+				<img class="mobile" src="img/pixi_breathing_earth_week_23.jpg"  alt="Image of a Breathing Earth map of week 23" height="508" width="1000">
+			</div>
+			<div id="stopstart">loading all 52 weeks, animation will start soon...</div>
+
+			<!-- For saving a file -->
+			<!-- <img id="canvasImg" alt="Right click to save me!"> -->
+
+			<div id="credit">
+				<div id="made">creator <span class="divider">|</span> <a href="https://twitter.com/NadiehBremer" target="_new">Nadieh Bremer</a> <span class="divider">|</span> <a href="https://www.visualcinnamon.com/" target="_new">VisualCinnamon.com</a></div>
+				<div id="data">data <span class="divider">|</span> <a href="https://www.star.nesdis.noaa.gov/smcd/emb/vci/VH/vh_ftp.php" target="_new">Center for Satellite Applications and Research</a></br>note that weeks 1 - 4 have missing data in the North (no daylight?)</div>
+				<div id="back">Go back to <a href="..">the main page</a></div>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+
+	</body>
+</html>

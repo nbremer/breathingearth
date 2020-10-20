@@ -1,0 +1,93 @@
+body {
+	text-align: center;
+	font-family: 'Source Code Pro', monospace;
+}
+
+a, a:link, a:visited, a:active {
+  color: #87a21a;
+  border-bottom: 1px dotted rgba(135, 162, 26, .5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #87a21a;
+}
+
+.mobile {
+	display: none;
+}
+
+/* ----------- Intro --------------*/
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#title {
+	font-weight: 200;
+	font-size: 38px;
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+#subtitle {
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 25px;
+	color: #87a21a;
+}
+#note {
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+
+/* ----------- Chart --------------*/
+
+#week {
+	text-align: left;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#chart {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 5px #c1c1c1;
+}
+
+#stopstart {
+	font-size: 11px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/*cursor: pointer;*/
+}
+
+/* ----------- Credit --------------*/
+#credit {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 10px;
+	color: #737373;
+}
+
+#made {
+	margin-bottom: 5px;
+}
+
+#back {
+	margin-top: 30px;
+}
+
+.divider {
+	font-weight: 300;
+	font-size: 14px;
+	padding: 0px 5px;
+}

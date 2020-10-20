@@ -1,0 +1,127 @@
+body {
+	text-align: center;
+	font-family: 'Source Code Pro', monospace;
+}
+
+a, a:link, a:visited, a:active {
+	color: #87a21a;
+	border-bottom: 1px dotted rgba(135, 162, 26, .5);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #87a21a;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.mobile {
+	display: none;
+}
+
+/* ----------- Intro --------------*/
+
+#title {
+	font-weight: 200;
+	font-size: 38px;
+	margin-top: 45px;
+	margin-bottom: 0px;
+}
+
+#subtitle {
+	font-weight: 300;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 55px;
+	color: #87a21a;
+}
+
+/* ----------- Chart --------------*/
+
+#week {
+	text-align: left;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+
+#chart {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 5px #c1c1c1;
+}
+
+#legend {
+	margin-top: 10px;
+}
+
+#legend-title {
+	text-anchor: middle;
+	font-size: 10px;
+}
+
+.legend-value {
+	font-size: 9px;
+	fill: #828282;
+}
+
+#stopstart {
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	/*cursor: pointer;*/
+	font-weight: 700;
+}
+
+/* ----------- Credit --------------*/
+
+#explanation {
+	margin-top: 40px;
+	font-size: 12px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	line-height: 160%;
+}
+
+#explanation-scientific {
+	font-size: 10px;
+	color: #808080;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	text-align: left;
+	line-height: 160%;
+}
+
+#credit {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 10px;
+	color: #737373;
+}
+
+#made {
+	margin-bottom: 5px;
+}
+#back {
+	margin-top: 30px;
+}
+
+.divider {
+	font-weight: 300;
+	font-size: 14px;
+	padding: 0px 5px;
+}
